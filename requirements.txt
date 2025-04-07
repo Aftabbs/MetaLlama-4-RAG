@@ -1,0 +1,4 @@
+groq
+sentence_transformers
+gradio
+pdfplumber
