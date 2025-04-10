@@ -2,7 +2,7 @@ import gradio as gr
 import pdfplumber
 import faiss
 from sentence_transformers import SentenceTransformer 
-from groq import Groq  
+from groq import Groq   
 import os 
 
 client = Groq(api_key=os.environ['GROQ_API_KEY'])
