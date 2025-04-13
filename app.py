@@ -4,7 +4,7 @@ import faiss
 from sentence_transformers import SentenceTransformer  
 from groq import Groq   
 import os 
-
+ 
 client = Groq(api_key=os.environ['GROQ_API_KEY'])
 
 
